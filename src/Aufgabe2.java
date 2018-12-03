@@ -4,6 +4,24 @@ public class Aufgabe2
 {
     public static void main (String[]args)
     {
+        // zu Aufgabe 3, zwei Variablen festlegen
+        int a = 10;
+        int b = 20;
+
+        System.out.println(Taschenrechner.addieren (a,b)); // Werte ausgeben, mit Taschenrechner kann man auf andere Klasse zugreifen, Punkt bestimmt etwas genauer
+        System.out.println(Taschenrechner.subtrahieren(a,b));
+        System.out.println(Taschenrechner.multiplizieren (a,b));
+        System.out.println(Taschenrechner.dividieren (a,b));
+
+        double c = 5.5; // zwei Variablen festlegen
+        double d = 7.5;
+
+        System.out.println(Taschenrechner.addieren1 (c,d)); // Werte ausgeben, mit Taschenrechner kann man auf andere Klasse zugreifen, Punkt bestimmt etwas genauer
+        System.out.println(Taschenrechner.subtrahieren1 (c,d));
+        System.out.println(Taschenrechner.multiplizieren1(c,d));
+        System.out.println(Taschenrechner.dividieren1(c,d));
+
+        // Aufgabe 2
         partialString(JOptionPane.showInputDialog(null, "Bitte geben Sie einen Wert ein!")); // in main Methode aufrufen
     }
     public static void partialString (String a)
