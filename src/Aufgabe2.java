@@ -34,7 +34,7 @@ public class Aufgabe2
         }
         else // sonst
         {
-            String length1 = a.substring(2); // mit dem Punkt kann man etwas genauer bestimmen, substring um den Wert von vorher herauszuheben, um einen String aus einem größeren String herauszulesen, 2 für die 2.Hälfte vom Wert
+            String length1 = a.substring(lenght/2); // mit dem Punkt kann man etwas genauer bestimmen, substring um den Wert von vorher herauszuheben, um einen String aus einem größeren String herauszulesen, 2 für die 2.Hälfte vom Wert
             System.out.println(length1); // die Länge wird ausgegeben
         }
     }
